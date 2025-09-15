@@ -1,0 +1,92 @@
+
+
+BASELAYER::
+    A selectively inclusive network which runs a chain.
+    Selectivity is based on the presence of some address in an on chain structure.
+        Trx requests from untrusted addresses are subject to seperate treatment if at all
+        Addresses can also be removed from the structure
+
+    The process of how one goes from untrusted to trusted or vice versa is varies by network.
+    Such proccesses are defined within smart contracts on chain.
+        Can define many such paths to "citizenship" or "uncitizenship".
+
+ISOLATED DERIVATIONS::
+    Then you have isolated systems that keep track of seperate balances internally.
+    The trust is in the operator of the isolated system, but
+        given access to the base layer such an interaction is consensual.
+
+    For example you give netflix 2 ETH for 1000 movies, on base layer.
+        then netflix keeps track of internal balances of netflix COIN without a chain.
+        You can do transfers and what not within this netflix system.
+            There are no trx fees. Its an internal centralized database.
+
+SELECTIVITY::
+    The purpose of selectivity is to limit the rate of trxs on the base network.
+    All secure and decentralized chains become unusable at a certain point.
+        that is unless one is willing to sacrifice both decentralization and security.
+    Ethereum for example -- gas costs make the chain unusable between 1-2 million trxs per day
+    The average american does about 2-4 trxs per day.
+
+    Given a network sets no limitation on who or how trxs are made.
+        A network is stuck with a capacity of 1 million daily users.
+            This is a moderately large city, but nothing more.
+
+    REASON -- gas costs are determined by quantity of transactions per block
+
+    If you want to have a productive economy you need trx fees to be predictable.
+    WHY ARE VOLATILE TRX COSTS COUNTER PRODUCTIVE?
+        costs skyrocket, currency becomes unusable, in turn causes a crash of relative value.
+        Crypto is different in that there is a point where the currency is being used too much.
+            This is what people call scalibility issues. but this isnt a bug but a feature.
+
+    So first thing is to create a way to control who can produce transactions.
+    This way if people act out of order you can blacklist them.
+        Also you could only whitelist nodes that you trust.
+        HOW THIS IS DONE:: CONTRACTS on chain
+            
+    Once that is made then you can create loose rules about how / when to submit trxs.
+    For example you might have many companies choreograph to transact at different times.
+        This way you never flood the network.
+    if someone does you have a system in place(Contractual) to deal with those cases.
+    You could have an admin in charge of blacklisting/removing, or 
+        it could be democraticly voted on by citizens or oligarchs.
+
+SCALABILITY::
+    Scalability is not achieved by engineering the network.
+    The network has limits, but our behavior is maleable.
+    We can adapt how we interact to better fit the environment provided by the network
+    Exclusivity is just as valuable as inclusivity.
+        Especially given a finite landscape.
+
+L2s::
+    L2s that try to aim for decentralization and security are just l1s.
+    BLOCKs are finite size, scarcity creates value for each unit of the block.
+        Unless you change block size the same limitations of the l1 apply to you.
+        That is both volatile gas prices and inherently trx/day limit.
+    And if block sizes get too large you approach a centralized and less secure network
+
+    If you dont chase decentralization and security.
+    you're essentially and isolated derivation and would be better off having local dbs.
+    Also you are still vulnerable to an unpredictable base layer.
+
+    Now I suppose you could achieve moderate decentralization by increasing block size.
+    Meaning only those who can afford that much compute will succeed.
+        But if thats your goal you can do that for cheaper as a selective base layer.
+            which selects based on how much of the coin you hold.
+        
+CONCLUDING::
+    The future is not owned by a monolith.
+    A decentralized world is not achieved through a single decentralized network,
+    but instead by the prevalence of various networks both decentralized and not.
+    
+    The playing field is rigged so that centralization and security are dichotomic.
+    Security = decentralization, and decentralization = limited scale.
+
+    Meaning decentralized systems have hard limits, but are secure.
+    Centralized systems are weak, but have no hard limits.
+
+    They both offer the weaknesses of one another.
+    And they fit together like male and female.
+
+    Meaning not only can you have a base layer with many kinds of derivitaves.
+    You can have a derivative that belongs to many base layers.

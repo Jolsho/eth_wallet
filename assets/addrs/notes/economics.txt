@@ -1,0 +1,22 @@
+we need to change how we buy/sell things
+    so that we can adapt to the rise of trx fees...
+    and the market of such things...
+        bundling should be chain based, but event based
+
+meaning we dont need to change tech to adapt to our behavior
+    but adapt our behavior to account for this new currency space
+        Make larger commitments on chain...
+            decreasing volume, and in turn trx fee
+
+we have to sorta get rid of atomic purchases...
+    buying single things as one off events
+
+
+what about using MaddrStore on basechain
+    and then using that to govern another chain
+        this other l2 chain can then sacrifice some security
+            Like excessive trxs fees because there is trust
+    I think this is the only way to go about these things
+        because then you can only accept transactions from trusted addresses
+        This is how you can limit gas costs
+
